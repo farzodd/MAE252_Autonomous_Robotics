@@ -1,12 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <fcntl.h>
-#include <ftw.h>
-#include <string.h>
-#include <sys/types.h>
-#include <dirent.h> 
-
 void printIndent(int i){
   for(int j = 0; j < i; ++j)
     printf("  ");
