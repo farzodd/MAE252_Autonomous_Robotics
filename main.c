@@ -1,5 +1,5 @@
 //added a comment to the top
-//which branch does this show up in?
+//this line is conflicting in branch 3
 
 void printIndent(int i){
   for(int j = 0; j < i; ++j)
